@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Awesome Startup Employee Directory</h1>
+        <input placeholder="Search employees by Name" class="search" id="search">
+    </header>
+
+    <main class="grid-container">
+        <div class="card" data-name="Haleigh Macchiarella">
+            <img class="avatar" src="member-1.jpg" alt="member-image" />
+            <div class="text-container">
+                <h2 class="name">Haleigh Macchiarella</h2>
+                <p class="email">dtucker@yakitri.edu</p>
+                <p class="address">Chicago</p>
+            </div>
+        </div>
+
+        <div class="card" data-name="John Doe">
+            <img class="avatar" src="member-1.jpg" alt="member-image" />
+            <div class="text-container">
+                <h2 class="name">John Doe</h2>
+                <p class="email">johndoe@email.com</p>
+                <p class="address">New York</p>
+            </div>
+        </div>
+
+        <div class="card" data-name="Jane Smith">
+            <img class="avatar" src="member-1.jpg" alt="member-image" />
+            <div class="text-container">
+                <h2 class="name">Jane Smith</h2>
+                <p class="email">janesmith@email.com</p>
+                <p class="address">Los Angeles</p>
+            </div>
+        </div>
+
+        <div class="card" data-name="Alice Johnson">
+            <img class="avatar" src="member-1.jpg" alt="member-image" />
+            <div class="text-container">
+                <h2 class="name">Alice Johnson</h2>
+                <p class="email">alicejohnson@email.com</p>
+                <p class="address">San Francisco</p>
+            </div>
+        </div>
+
+        <div class="card" data-name="Mark Thompson">
+            <img class="avatar" src="member-1.jpg" alt="member-image" />
+            <div class="text-container">
+                <h2 class="name">Mark Thompson</h2>
+                <p class="email">markthompson@email.com</p>
+                <p class="address">Miami</p>
+            </div>
+        </div>
+
+        <div class="card" data-name="Emily Clark">
+            <img class="avatar" src="member-1.jpg" alt="member-image" />
+            <div class="text-container">
+                <h2 class="name">Emily Clark</h2>
+                <p class="email">emilyclark@email.com</p>
+                <p class="address">Dallas</p>
+            </div>
+        </div>
+
+        <div class="card" data-name="Michael Brown">
+            <img class="avatar" src="member-1.jpg" alt="member-image" />
+            <div class="text-container">
+                <h2 class="name">Michael Brown</h2>
+                <p class="email">michaelbrown@email.com</p>
+                <p class="address">Chicago</p>
+            </div>
+        </div>
+
+        <div class="card" data-name="Sophia White">
+            <img class="avatar" src="member-1.jpg" alt="member-image" />
+            <div class="text-container">
+                <h2 class="name">Sophia White</h2>
+                <p class="email">sophiawhite@email.com</p>
+                <p class="address">New York</p>
+            </div>
+        </div>
+
+        <div class="card" data-name="David Green">
+            <img class="avatar" src="member-1.jpg" alt="member-image" />
+            <div class="text-container">
+                <h2 class="name">David Green</h2>
+                <p class="email">davidgreen@email.com</p>
+                <p class="address">Boston</p>
+            </div>
+        </div>
+
+        <div class="card" data-name="Olivia Harris">
+            <img class="avatar" src="member-1.jpg" alt="member-image" />
+            <div class="text-container">
+                <h2 class="name">Olivia Harris</h2>
+                <p class="email">oliviaharris@email.com</p>
+                <p class="address">Seattle</p>
+            </div>
+        </div>
+
+        <div class="card" data-name="Ethan Lewis">
+            <img class="avatar" src="member-1.jpg" alt="member-image" />
+            <div class="text-container">
+                <h2 class="name">Ethan Lewis</h2>
+                <p class="email">ethanlewis@email.com</p>
+                <p class="address">Los Angeles</p>
+            </div>
+        </div>
+
+        <div class="card" data-name="Mia Walker">
+            <img class="avatar" src="member-1.jpg" alt="member-image" />
+            <div class="text-container">
+                <h2 class="name">Mia Walker</h2>
+                <p class="email">miawalker@email.com</p>
+                <p class="address">Chicago</p>
+            </div>
+        </div>
+    </main>
+
+    <div class="overlay hidden">
+        <div class="modal">
+            <button class="modal-close">X</button>
+            <button class="modal-previous"> &#8249; </button>
+            <button class="modal-next"> &#8250; </button>
+            <div class="modal-content">
+                <img class="avatar" src="member-1.jpg" alt="member-image" />
+                <div class="text-container">
+                    <h2 class="name">Haleigh Macchiarella</h2>
+                    <p class="email">dtucker@yakitri.edu</p>
+                    <p class="address">Chicago</p>
+                    <p>(593) 364-3249</p>
+                    <p class="address">123 Anywhere St, WV 84814</p>
+                    <p>Birthday: 01/04/85</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
